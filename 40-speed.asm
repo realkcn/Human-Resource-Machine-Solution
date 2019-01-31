@@ -1,0 +1,83 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+    COPYFROM 24
+    COPYTO   23
+    BUMPUP   23
+    BUMPUP   23
+    INBOX   
+    COPYTO   20
+c:
+d:
+    COPYTO   21
+    COPYFROM 24
+    COPYTO   22
+    COPYFROM 21
+e:
+    SUB      23
+    JUMPZ    i
+    JUMPN    f
+    COPYTO   21
+    BUMPUP   22
+    COPYFROM 21
+    JUMP     e
+f:
+    COMMENT  0
+    BUMPUP   23
+    COPYFROM 20
+    SUB      23
+    SUB      23
+    JUMPN    h
+    JUMPZ    g
+    COPYFROM 20
+    JUMP     c
+g:
+h:
+    COPYFROM 20
+    OUTBOX  
+    JUMP     a
+i:
+    COMMENT  1
+    COPYFROM 23
+    OUTBOX  
+    COPYFROM 22
+    JUMPZ    b
+    BUMPUP   22
+    COPYTO   20
+    JUMP     d
+
+
+DEFINE COMMENT 0
+eJxTZWBgOCh1K6hFsilfQLRtAZDLkKI6PSBGQzHihuaGpBma9rkL1HZOe6DWtXie+qUVszWurb6qFbG2
+Wy9i7VYzwRVrLU8uAulRUstNeK20Jt5IQS8RxH9kuyU1wzqhNcO6dMpSm6a5cvZtCyIcj84PcLGfzem+
+ZfIRD7VOZ0/JBmfPtiJXj9I0brf3icHOa+KX2mjFMYyCUTAK6AYALAc36w;
+
+DEFINE COMMENT 1
+eJxzYGBg2C2TovNVztpmo8K90A8KhclGCpeqdJUCKm9o2udWm8wPe25tby/pKKly3dFb6onNQYdN5pOr
+LU1X7PhlInmn2kT2frPhvfs+erPvRmpOvp6iynFhtdLe4x8U9PYaKcxeb6TgPE9fccOETGXJBiU1nvK7
+6hwlfronS9wMzpUDrWY47m5vnxpyyYcrbnpAZYqo/+a0s56f0pocv6aWWtgnzddwj0/QnBitZzwvzN31
+deDz6PwA66z8AJbCdwEnS14GnSuXiBSs+pAuWJWT2V+xOtO9GGTmx7oETbfyo87epZd8eEojAh0rU6PO
+9HCUePWeK+fuDakR6FZsm9Kp1nmv9XknwygYBSMcAAAnaGd/;
+
+DEFINE LABEL 20
+eJxTYWBg8BU7WTJFWK//Ce/s9bICHIv8RfX6a2REa9cp8pSrqvKUL1a9VJWieq95tRLL/NVK55ZmKl9a
+Ia8+eSWXftdioHYGMzOe8l0ma3r3Gl9b7ewp2cDmUTXd1WP6GpBcfNilqqTQLZNXBt3bmB58aYVUhNEk
+9/jpdU6JITVMiZLrXmWu6Z1QzFFytiSkpqOsfxnDKBgFo4CuAAD+vze2;
+
+DEFINE LABEL 21
+eJzjY2BgkBbkKLks3Fakpexe/NnvUhVQiCHNpst9q9ns9VvN9PZ+Mv9zTM1m73FGL/PD8WFrds8Jz9zJ
+MApGwSgYFgAAT8wV7g;
+
+DEFINE LABEL 22
+eJzjZWBgMFIIqNRS/pyipPYoIk79Xmik5pLI/0bPt+81fr0LKM2gYrsm3sS8rWiy9vv+u+oH5zCMglEw
+CoYNAABjgxRW;
+
+DEFINE LABEL 23
+eJwTZ2Bg+Cr3KMJIIcQvR+mos6pqpXWcupllpKazk4j2Nf8O/dc9aTZ/suTsE8Ln2nO4xdqzOCfYXfJZ
+amOd9dw6s3ur2fu9O0w/HzhkuPOIqirDqUzlqqMbFZZszVe8tIJhFIyCUTDoAQAXFiS1;
+
+DEFINE LABEL 24
+eJwTYWBgOKH/KCJE+2hhpOa95lsar3ukNJvmXtWavuasrtIWG5PUbXqW8zdpWs9e/8jWZ8kd+zW90g5d
+pYp2qVEZ1hGBm8wv+ViaTvZlMooIvKStFccwCkbBKBhSAAAHyiCa;
+
